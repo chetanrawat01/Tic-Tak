@@ -1,0 +1,141 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+table
+{
+    height:400px ;
+    width: 400px;
+
+}
+table tr{
+    width: 300px;
+    height: 150px;
+
+}
+table tr td
+{
+    width: 35px;
+    height: 35px;
+    border: 8px solid rgb(65, 134, 225);
+    background-color: transparent;
+}
+h1{
+    color: rgb(255, 106, 0);
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+}
+tbody>tr>:nth-child(1)
+{
+    border-left: none ;
+}
+tbody>tr>:nth-child(1)
+{
+    border-top: none ;
+}
+tbody>tr>:nth-child(2)
+{
+    border-top: none ;
+}
+tbody>tr>:nth-child(3)
+{
+    border-top: none ;
+}
+tbody>tr>:nth-child(3)
+{
+    border-right: none ;
+}
+.borderb
+{
+    border-bottom: none;
+    background-color: transparent;
+
+}
+td 
+{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color:rgb(255, 183, 0);
+    border-radius: 10px;
+}
+.d1
+{
+    text-align:center;
+    width: 300px;
+    height: 50px;
+    border: 4px groove darkblue;
+    font-size: 18px;
+    font-family: fantasy;
+    font-weight: 300;
+    color: rgb(178, 219, 100);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+}
+p
+{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 900;
+    font-style: italic;
+}
+.img
+{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dis
+{
+    pointer-events: none;
+    width: 150px;
+    height: 150px;
+    border: solid;
+}
+.bv
+{
+    background-image: url(XTpm.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+}
+.bt
+{
+    background-image: url(tick.gif);
+    background-position: center;
+    width: 300px;
+    color: rgb(255, 0, 0);
+    background-size: 75% 100% ;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.bt:hover{
+    background-color: blueviolet;
+    color: greenyellow;
+
+}
+td input
+{
+    display: none;
+}
+.prin{
+    color: white;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 20px;
+}
+.cm
+{
+    pointer-events: none;
+}
+.sa
+{
+    display: none;
+}
